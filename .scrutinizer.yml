@@ -14,7 +14,7 @@ build:
     tests:
         override:
             -
-                command: 'phpunit plugins/vojtasvoboda/reservations/tests --coverage-clover=coverage --bootstrap tests/bootstrap.php'
+                command: 'phpunit plugins/vojtasvoboda/reservations/tests --coverage-clover=coverage --bootstrap ../../../tests/bootstrap.php'
                 coverage:
                     file: 'coverage'
                     format: 'php-clover'
