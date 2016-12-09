@@ -17,4 +17,4 @@ build:
                 command: 'phpunit plugins/vojtasvoboda/reservations/tests --coverage-clover=coverage'
                 coverage:
                     file: 'coverage'
-                    format: 'php-clover'
+                    format: 'clover'
