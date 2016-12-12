@@ -18,7 +18,14 @@
     "require": {
         "php": ">=5.4",
         "composer/installers": "~1.0"
+        "linglongscru/metadata": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:linglongscru/metadata.git"
+        }
+    ],
     "minimum-stability": "dev",
     "scripts": {
         "build": [
